@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'nama-proyek-anda',
+      name: 'NSC',
       script: 'npm',
       args: 'start',
       watch: true,

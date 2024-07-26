@@ -4,6 +4,8 @@ import {
   RiArrowRightCircleLine,
   RiMailFill,
   RiMapPin2Fill,
+  RiWhatsappFill,
+  RiPhoneFill,
 } from "react-icons/ri";
 import Navbar from "../components/Navbar";
 import banner1 from "../assets/banner1.jpg";
@@ -81,11 +83,11 @@ const HomePage = () => {
               <div className="flex flex-col items-center justify-center w-full h-full p-4 text-center text-white bg-black bg-opacity-50 md:p-8">
                 <img
                   src={AkastarLogo}
-                  alt="Alkastar Logo"
+                  alt="Akastar Logo"
                   className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40"
                 />
                 <h1 className="mt-4 text-2xl sm:text-3xl md:text-4xl">
-                  Alkastar
+                  Akastar
                 </h1>
                 <p className="max-w-md mx-auto mt-2 text-sm sm:text-base md:text-lg">
                   NSC has introduced a product named Akastar, derived from the
@@ -183,9 +185,9 @@ const HomePage = () => {
           <div className="w-full mt-8">
             {[
               {
-                question: "What is Alkastar?",
+                question: "What is Akastar?",
                 answer:
-                  "Alkastar is a product introduced by NSC to provide fast internet connectivity to remote areas of Indonesia using advanced satellite technology.",
+                  "Akastar is a product introduced by NSC to provide fast internet connectivity to remote areas of Indonesia using advanced satellite technology.",
               },
               {
                 question: "How does the service work?",
@@ -219,9 +221,8 @@ const HomePage = () => {
       <div className="grid items-center justify-center w-full h-full grid-cols-1 px-8 py-10 md:grid-cols-2 bg-blue-950">
         <div className="flex flex-col w-full h-full">
           <p className="text-sm text-white">
-            © 2022 Alkastar. All rights reserved.
+            Copyright © 2024 NSC. All rights reserved.
           </p>
-          <p className="text-sm text-white">Powered by NSC</p>
         </div>
         <div className="flex flex-col w-full h-full gap-5">
           <div className="flex flex-row items-center justify-center gap-2">
@@ -241,15 +242,15 @@ const HomePage = () => {
             </div>
             <div className="flex flex-row items-center justify-center gap-2">
               <a href="sales@nsc.id" target="_blank" rel="noopener noreferrer">
-                <RiMailFill className="text-xl text-white" />
+                <RiPhoneFill className="text-xl text-white" />
               </a>
-              <p className="text-sm text-white">sales@nsc.id</p>
+              <p className="text-sm text-white">(021)39524438</p>
             </div>
             <div className="flex flex-row items-center justify-center gap-2">
               <a href="sales@nsc.id" target="_blank" rel="noopener noreferrer">
-                <RiMailFill className="text-xl text-white" />
+                <RiWhatsappFill className="text-xl text-white" />
               </a>
-              <p className="text-sm text-white">sales@nsc.id</p>
+              <p className="text-sm text-white">+62 8138 9955 512</p>
             </div>
           </div>
         </div>
